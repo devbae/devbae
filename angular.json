@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "devbae"
+    }
+  },
+  "defaultProject": "devbae",
+  "cli": {
+    "analytics": false
+  }
 }
