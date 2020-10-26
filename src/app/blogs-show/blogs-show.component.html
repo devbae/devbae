@@ -1,0 +1,9 @@
+<button (click)="saveBlog()" class="btn btn-success">Submit</button>
+<ul class="list-group">
+    <li
+      class="list-group-item"
+      *ngFor="let blog of blogsRet; let i = index"
+    >
+      {{ blog.title }}
+    </li>
+  </ul>
